@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FIMS School and College Dargai</title>
+    <link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+    <header style="margin-top: -15pt;margin-left: -15pt;margin-right: -15pt;">
+        <h1>FIMS School and College Dargai</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#courses">Courses</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home">
+        <h2>Welcome to FIMS School & College</h2>
+        <p>Shaping Future Leaders Through Quality Education.</p>
+        
+    </section>
+
+    <section id="about">
+        <h2>About FIMS School & College</h2>
+        <p>FIMS School & College is dedicated to providing high-quality education to students, empowering them with the knowledge and skills they need to excel in their future careers. Our experienced faculty and state-of-the-art facilities ensure a top-tier learning environment.</p>
+        <h3>Our Vision</h3>
+        <p>To be a leading institution in Pakistan, fostering academic excellence and innovation.</p>
+        <h3>Our Mission</h3>
+        <p>To nurture students into responsible, skilled, and confident individuals through a well-rounded curriculum.</p>
+    </section>
+
+    <section id="courses">
+        <h2>Our Programs</h2>
+        <h3>Primary & Secondary Education</h3>
+        <p>A strong foundation for young learners.</p>
+        <h3>Matriculation (9th & 10th)</h3>
+        <p>Preparing students for board examinations.</p>
+        <h3>Intermediate (FA, FSC, ICS, ICOM)</h3>
+        <p>Specializing in Science, Commerce, and Arts.</p>
+        <h3>Professional Courses </h3>
+        <p>Short courses in IT, English Language, and more.</p>
+        
+    </section>
+    <section id="courses">
+        <h2>Admissions Open!</h2>
+        <h3>Join FIMS School & College and start your journey toward success.</h3>
+        <h3>How to Apply?</h3>
+        <p>Fill out the online admission form.</p>
+        <p>Submit required documents (CNIC/B-Form, Previous School Certificates).
+        </p>
+        <p>Appear for an entry test/interview (if applicable).
+        </p>
+        <p>Get enrolled and start your academic journey with us.
+        </p><br>
+        <a href="https://wa.me/923419222309" target="_blank" style="background-color: #25D366; color: white; padding: 10px 20px; border-radius: 5px; text-decoration: none; font-size: 16px;">
+            Click For More Info <a>
+       
+    </section>
+    <section>
+        <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FIMS School & College Admission Form</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 20px;
+        }
+        .container {
+            width: "device-width";
+            background: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+            margin-left: 250pt;
+            margin-right: 250pt;
+            
+        }
+        h2 {
+            text-align: center;
+            color: #2c3e50;
+        }
+        label {
+            font-weight: bold;
+        }
+        input, select, textarea {
+            width: 100%;
+            padding: 8px;
+            margin: 8px 0;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        button {
+            width: 100%;
+            background: #3498db;
+            color: white;
+            padding: 10px;
+            border: none;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+        button:hover {
+            background: #2980b9;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <div style="background-color: #004080;padding: 10pt;">
+        <h2 style="color:#f4f4f4;">FIMS School & College Admission Form</h2>
+    </div><br><br>
+    <form action="submit_form.php" method="POST">
+        <label for="studentName">Student's Full Name:</label>
+        <input type="text" id="studentName" name="studentName" required>
+
+        <label for="dob">Date of Birth:</label>
+        <input type="date" id="dob" name="dob" required>
+
+        <label for="gender">Gender:</label>
+        <select id="gender" name="gender" required>
+            <option value="" disabled selected>Select</option>
+            <option value="Male">Male</option>
+            <option value="Female">Female</option>
+            <option value="Other">Other</option>
+        </select>
+
+        <label for="class">Applying for Class:</label>
+        <select id="class" name="class" required>
+            <option value="" disabled selected>Select Class</option>
+            <option value="Nursery">Nursery</option>
+            <option value="KG">KG</option>
+            <option value="1">Class 1</option>
+            <option value="2">Class 2</option>
+            <option value="3">Class 3</option>
+            <option value="4">Class 4</option>
+            <option value="5">Class 5</option>
+            <option value="6">Class 6</option>
+            <option value="7">Class 7</option>
+            <option value="8">Class 8</option>
+            <option value="9">Class 9</option>
+            <option value="10">Class 10</option>
+        </select>
+
+        <label for="parentName">Parent/Guardian's Name:</label>
+        <input type="text" id="parentName" name="parentName" required>
+
+        <label for="contact">Contact Number:</label>
+        <input type="tel" id="contact" name="contact" required>
+
+        <label for="email">Email (Optional):</label>
+        <input type="email" id="email" name="email">
+
+        <label for="address">Home Address:</label>
+        <textarea id="address" name="address" rows="3" required></textarea>
+
+        <label for="previousSchool">Previous School (if any):</label>
+        <input type="text" id="previousSchool" name="previousSchool">
+
+        <label for="reason">Why do you want to join FIMS?</label>
+        <textarea id="reason" name="reason" rows="3"></textarea>
+
+        <button type="submit">Submit Application</button>
+    </form>
+</div>
+
+</body>
+</html>
+
+    </section>
+
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <a href="mailto:fims.school.main@gmail.com" class="email-btn">Email Us</a><br>
+        <a href="tel:+923419222309" class="call-btn">Call Us</a><br><br>
+        <a href="https://wa.me/923419222309" target="_blank" style="background-color: #25D366; color: white; padding: 10px 20px; border-radius: 5px; text-decoration: none; font-size: 16px;">
+         Chat on WhatsApp <a>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 FIMS School and College Dargai. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
+
